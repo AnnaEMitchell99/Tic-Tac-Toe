@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href = "test-style.css">
+    <script type="text/javascript" defer src="test-app.js"></script>
+</head>
+<body>
+    <h2 id="page-header">Tic Tac Toe</h2>
+    <div class="player-names"> 
+        <h4 id="player-one">Player X: 
+            <input> </input>
+        </h4>
+        <h4 id="player-two">Player O: 
+            <input> </input>
+        </h4>
+    </div>
+    <div id="game"></div>
+    <div id="game-board">
+        <button id="button-one" data-index="1" class="tile"> </button>
+        <button id="button-two" data-index="2" class="tile"> </button>
+        <button id="button-three" data-index="3" class="tile"> </button>
+        <button id="button-four" data-index="4" class="tile"> </button>
+        <button id="button-five" data-index="5" class="tile"> </button>
+        <button id="button-six" data-index="6" class="tile"> </button>
+        <button id="button-seven" data-index="7" class="tile"> </button>
+        <button id="button-eight" data-index="8" class="tile"> </button>
+        <button id="button-nine" data-index="9" class="tile"> </button>
+    </div>
+    <div>
+        <div id="game-over-text">  </div>
+        <button id="reset-button" onclick="window.location.reload()"> Reset </button>
+    </div>
+
+
+</body>
